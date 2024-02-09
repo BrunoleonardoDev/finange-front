@@ -1,92 +1,105 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="dark">
+
 <head>
 	<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Stylesheet -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Stylesheet -->
 	<link rel="stylesheet" href="../assets/css/login.css">
 	<link rel="stylesheet" href="efeitos.css">
-    <!-- x Stylesheet x -->
-    <!-- scripts -->
-    <script defer src="../assets/js/login.js"></script>
-    <!-- x scripts x -->
-    <!-- Kit icones -->
+	<!-- x Stylesheet x -->
+	<!-- scripts -->
+	<script defer src="../assets/js/login.js"></script>
+	<!-- x scripts x -->
+	<!-- Kit icones -->
 	<script src="https://kit.fontawesome.com/a00a82a1cd.js" crossorigin="anonymous"></script>
-	 <!--x Kit icones x-->
-	 <!-- Favicon -->
-	 <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/Favicon/apple-touch-icon.png">
-	 <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/Favicon/favicon-32x32.png">
-	 <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/Favicon/favicon-16x16.png">
-	 <link rel="manifest" href="../assets/img/Favicon/site.webmanifest">
-	 <link rel="shortcut icon" href="../assets/img/Favicon/favicon.ico" type="image/x-icon">
-	 <!-- x Favicon x -->
-	 <title>Finange | Login</title>
-	</head>
-	<body>
-		<main>
-			<div class="container">
-				<section class="promocional">
-					<div class="promo">
-	
-					</div>
-				</section>
-				<section class="card-input">
-					<div class="logo">
-						<img src="../assets/img/logo3.png" alt="Logo">
-					</div>
-	
-					<!--x rota de login x-->
-					<div class="input">
-						<div class="img-input">
+	<!--x Kit icones x-->
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="../assets/img/Favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../assets/img/Favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../assets/img/Favicon/favicon-16x16.png">
+	<link rel="manifest" href="../assets/img/Favicon/site.webmanifest">
+	<link rel="shortcut icon" href="../assets/img/Favicon/favicon.ico" type="image/x-icon">
+	<!-- x Favicon x -->
+	<title>Finange | Login</title>
+</head>
+
+<body>
+	<header>
+		<section class="switch" onclick="toggleMode()">
+			<button class="moon">
+			</button>
+			<apam class="track">
+		
+			</apam>
+		</section>
+	</header>
+	<main>
+		<div class="container">
+			<section class="promocional">
+				<div class="promo">
+
+				</div>
+			</section>
+			<section class="card-input">
+				<div class="logo">
+					<img src="../assets/img/logo3.png" alt="Logo">
+				</div>
+
+				<!--x rota de login x-->
+				<div class="input">
+					<div class="img-input">
+						<!-- Adcionar rota de cadastro -->
+						<form action="#" method="post">
 							<!-- Adcionar rota de cadastro -->
-							<form action="#" method="post">
-								<!-- Adcionar rota de cadastro -->
-								<i class="fa-solid fa-user"></i>
-								<input type="email" name="mail" id="mail" placeholder="USUARIO" required>
-								<hr>
-						</div>
-						<div class="img-input">
-							<i class="fa-solid fa-lock"></i>
-							<input type="password" name="senha" id="senha" placeholder="SENHA" required>
+							<i class="fa-solid fa-user"></i>
+							<input type="email" name="mail" id="mail" placeholder="USUARIO" required>
 							<hr>
-						</div>
-						<!--x rota de login x-->
-	
-	
-						<div class="btn">
-							<div class="check">
-								<input type="checkbox" name="check" id="check">
-								<div class="check-text">
-									<p>Manter logado</p>
-									<a href="#">Esqueceu a senha?</a>
-								</div>
-							</div>
-							<div class="botão">
-								<input type="submit" value="Entrar">
-								</form>
-							</div>
-						</div>
-						<div class="row">
-							<hr>
-							<p>Ou</p>
-							<hr>
-						</div>
-						<p>Acesse com</p>
-	
-						<!-- Rota para fazer o login atraves do telegram -->
-						<div class="redes">
-							<div>
-								<button class="telegram">
-									<a href="../pages/dashboard.html"><img src="../assets/img/telegram.svg" alt="" id="telegram"></a>
-								</button>
-							</div>
-						</div>
-						<!-- Rota para fazer o login atraves do telegram -->
 					</div>
-				</section>
-			</div>
-		</main>
-	</body>
-	
-	</html>
+					<div class="img-input">
+						<i class="fa-solid fa-lock"></i>
+						<input type="password" name="senha" id="senha" placeholder="SENHA" required>
+						<hr>
+					</div>
+					<!--x rota de login x-->
+
+
+					<div class="btn">
+						<div class="check">
+							<input type="checkbox" name="check" id="check">
+							<div class="check-text">
+								<p>Manter logado</p>
+								<a href="#">Esqueceu a senha?</a>
+							</div>
+						</div>
+						<div class="botão">
+							<input type="submit" value="Entrar">
+							</form>
+						</div>
+					</div>
+					<div class="row">
+						<hr>
+						<p>Ou</p>
+						<hr><br>
+					</div>
+					<p>Acesse com</p>
+
+					<!-- Rota para fazer o login atraves do telegram -->
+					<div class="redes">
+						<div>
+							<button class="telegram">
+								<a href="../pages/dashboard.html"><img src="../assets/img/telegram.svg" alt=""
+										id="telegram"></a>
+							</button>
+						</div>
+					</div>
+					<!-- Rota para fazer o login atraves do telegram -->
+				</div>
+			</section>
+		</div>
+	</main>
+	<script src="login.js"></script>
+</body>
+
+</html>
